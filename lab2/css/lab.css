@@ -1,0 +1,30 @@
+h1 {
+
+    color: #FF5733;
+    font-family: "Snell Roundhand", cursive;
+    font-size: 400%;
+    text-align: center;
+}
+p.Paragraph1Luke {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 50%;
+  color: #900C3F
+}
+p.Paragraph2Sukhnoor {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: right;
+  margin-left: 50%;
+  margin-right: 10px;
+  color: #900C3F
+}
+
+#content {
+  background-color: lightyellow;
+  width: 500px;
+  min-height: 100px;
+  padding: 300px;
+  margin: 10px;
+  border: solid 3px #444444;
+  font-size: 15px
