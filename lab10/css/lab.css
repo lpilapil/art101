@@ -1,0 +1,13 @@
+#content {
+  min-height: 100px;
+  padding: 50px; */
+  margin: 0%;
+  border: solid 10px #444444;
+  font-size: 30px;
+  background-image: linear-gradient(red, yellow);
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
