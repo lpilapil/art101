@@ -10,4 +10,20 @@ window.onload = function sayMyname(){
   h1.innerText = "Welcome, " + name;
 }
 
-button.addEventListener('click', sayMyname);
+buttonEl.addEventListener('click', sayMyname);
+
+buttonEl = document.getElementById("my-button");
+console.log("button element:", buttonEl);
+
+inputEl = document.getElementById("user-name");
+console.log("input element:", inputEl);
+
+outputEl = document.getElementById("output");
+console.log("output element:", outputEl);
+
+
+buttonEl.addEventListener("click", function(){
+  var userName = inputEl.value;
+  var newName = toTitleCase(reorderUserName(userName));
+  outputEl.innerHTML = "<p id=name-results>" + newName + "</p>";
+}
