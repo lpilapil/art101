@@ -3,6 +3,9 @@
 *Created: November 15, 2021
 *License: Public DOmain
 **/
+
+new ghostCursor();
+
 console.log("Hi");
 // Return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff
 function sortingHat(str) {
